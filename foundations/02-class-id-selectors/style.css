@@ -1,0 +1,16 @@
+.odd{
+    background-color: #E00F92;
+    font-family: 'Verdana', 'DejaVu Sans', fantasy;
+}
+#id-for-2{
+    color:#1155FF;
+    font-size: 36px;
+}
+.multiple-class{
+    font-size: 24px;
+}
+#id-for-4{
+    background-color:#24FF11;
+    font-size: 24px;
+    font-weight: bold;
+}
