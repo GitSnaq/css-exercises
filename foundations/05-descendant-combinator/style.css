@@ -1,0 +1,14 @@
+.container .text{
+    background-color: yellow;
+    color:#FF484A;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Below are some other possible descendant combinators:
+*Copied from the solutions to the exercise. 
+div p
+div .text
+.container p
+
+*/
