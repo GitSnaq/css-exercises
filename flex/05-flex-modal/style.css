@@ -14,13 +14,32 @@ body {
   align-items: center;
   justify-content: center;
 }
+.icon{
+  flex-shrink: 0;
+}
 
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 16px;
+  gap: 16px;
 }
+
+/* for the header we are grouping the close button and heading
+so when we use display flex on it, it 'rowifies' them and
+puts up the button about where it needs to be and then we use
+justify to but all the space on the right between them. */
+.header{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 17px;
+  align-items: center;
+}
+
 
 .icon {
   color: royalblue;
@@ -64,3 +83,13 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+.continue,
+.cancel{
+  margin-top: 16px;
+  margin-left: 0;
+}
+.container{
+  outline: 1px solid red;
+}
+
+
